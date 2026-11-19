@@ -1,0 +1,25 @@
+# build output
+build/
+build-*/
+cmake-build-*/
+*.o
+*.dSYM/
+/sa
+
+# Python (tools/tests)
+__pycache__/
+*.pyc
+
+# input data: the course instance is not redistributable; synthetic data is generated
+data/
+orders.txt
+drivingtimes.txt
+output.txt
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.pytest_cache/
+.venv/
+venv/

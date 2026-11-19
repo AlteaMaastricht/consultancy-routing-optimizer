@@ -1,0 +1,4 @@
+# GitHub language statistics: the solver is cpp/sa.cpp. The Python files are test and
+# validation tooling (standard library only), so they are excluded from the language bar.
+tests/** linguist-vendored
+tools/** linguist-vendored
